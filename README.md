@@ -1,5 +1,7 @@
 # Select2-Angular4
 
+This component is modified version of [ng2-select2](https://github.com/NejcZdovc/ng2-select2/) with support of ngModel.
+
 ## Prerequisites
 
 For this plugin to work you need to add two javascript libraries to your project

@@ -8,3 +8,11 @@
 	[width]=100
 	[placeholder]="'Please select...'">
 </select2>
+
+<select2 
+	[data] = "cities | filter:selectedValue:'state_id'"
+	[width]=100
+	[placeholder]="'Please select...'">
+</select2>
+
+<button class="btn btn-default" (click)="onClickChange()">Change Data</button>

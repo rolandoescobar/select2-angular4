@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { Select2Module } from './ng4-select2/ng4-select2.module';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

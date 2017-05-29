@@ -1,4 +1,9 @@
 <h1>
   {{title}}
 </h1>
-<select-guru></select-guru>
+<p>{{ dynamicValue }}</p>
+<select-guru 
+	[(ngModel)]="dynamicValue"
+		[data] = data	
+		[width]=100>
+</select-guru>

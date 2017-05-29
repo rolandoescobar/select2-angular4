@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+	dynamicValue;
+
+	data = [{
+		id: 1,
+		text: 'test'
+	},
+	{
+		id: 2,
+		text: '2 test'
+	}];
 }

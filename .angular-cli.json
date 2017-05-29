@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "./styles/select2.css"
       ],
       "scripts": [
         "./lib/jquery-min.js",

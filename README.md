@@ -1,28 +1,13 @@
-# CustomSelect2
+# Select2-Angular4
+
+## Prerequisites
+
+For this plugin to work you need to add two javascript libraries to your project
+- [Jquery](https://jquery.com/download/)
+- [Select2](https://select2.github.io/)
+
+First option and **preferred one** is to add libraries to your package builder.
+- You can find example of how to add libraries to the Angular CLI in [demo repository](https://github.com/NejcZdovc/ng2-select2-demo/blob/master/angular-cli.json#L24-L25). 
+- You can also add it to [webpack directly](https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack#answer-2898947). 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

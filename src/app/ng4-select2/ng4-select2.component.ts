@@ -19,12 +19,12 @@ import {
     Self
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, NgControl } from '@angular/forms';
-import { Select2OptionData } from './select-guru.interface';
+import { Select2OptionData } from './ng4-select2.interface';
 
 import { Select2Options } from './Select2';
 declare var jQuery: any;
 @Component({
-    selector: 'select-guru',
+    selector: 'select2',
     template: `
         <select #selector>
             <ng-content select="option, optgroup">
@@ -227,7 +227,6 @@ export class Select2Component implements AfterViewInit, OnChanges, OnDestroy, On
             } else {
                 this.renderer.setElementProperty(this.selector.nativeElement, 'value', newValue);
             }
-            console.log(this.element);
             if(this.element) {
                 this.element.trigger('change.select2');
             } 

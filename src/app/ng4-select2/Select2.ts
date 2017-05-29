@@ -1,4 +1,5 @@
 // import '@types/jquery';
+/* npm install --save @types/jquery */
 /// <reference types="jquery" />
 
 export interface Select2QueryOptions {

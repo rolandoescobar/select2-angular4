@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { Select2Component } from './select-guru/select-guru.component';
+import { Select2Module } from './ng4-select2/ng4-select2.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Select2Component
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Select2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

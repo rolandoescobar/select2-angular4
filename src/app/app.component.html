@@ -1,9 +1,10 @@
 <h1>
   {{title}}
 </h1>
-<p>{{ dynamicValue }}</p>
-<select-guru 
-	[(ngModel)]="dynamicValue"
-		[data] = data	
-		[width]=100>
-</select-guru>
+<p>{{ selectedValue }}</p>
+<select2 
+	[(ngModel)]="selectedValue"
+	[data] = data
+	[width]=100
+	[placeholder]="'Please select...'">
+</select2>
